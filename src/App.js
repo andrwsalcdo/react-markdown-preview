@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="column" id="md-input">
-            {/*<markownInput onChange={this.handleChange} textValue={this.state.text} />*/}
+            {/*<markdownInput onChange={this.handleChange} textValue={this.state.text} />*/}
             {this.state.text}
         </div>
         <div className="column" id="md-preview">
