@@ -1,19 +1,37 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//import future componnents here
+
+
+
 class App extends Component {
-  render() {
+  constructor (props) {
+    super(props)
+    this.state = {
+      text: 'Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n'
+    }
+  }
+  
+  handleChange = (e) => {
+    this.setState({ text: e.target.value })
+  }  
+  
+  render () {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Welcome to React</h2>
+      <div className="container">
+        <div className="column" id="md-input">
+            {/*<markownInput onChange={this.handleChange} textValue={this.state.text} />*/}
+            {this.state.text}
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="column" id="md-preview">
+              {/*<markdownPreview markup={this.state.text} /> */}
+              hello world
+        </div>
       </div>
-    );
+    )
   }
 }
+
 
 export default App;
