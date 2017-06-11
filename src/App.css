@@ -1,0 +1,21 @@
+body {
+    background: lightyellow; 
+    color: black; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 50px; 
+}
+
+.container {
+    margin: 0 auto; 
+    max-width: 90%; 
+}
+
+.column {
+    border: 2px solid red;
+    display: inline-block; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    vertical-align: top; 
+    width: 45.4%; 
+}
