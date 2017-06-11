@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import '../App.css'
+let marked = require('marked');
 
-class markdownPreview extends Component {
+class MarkdownPreview extends Component {
+
     render () {
         return (
-            <div>
-                
-            </div>
+            <div dangerouslySetInnerHTML={ {__html: marked(this.props.markup)} } />
         )
     }
 }
 
-export default markdownPreview; 
+export default MarkdownPreview; 

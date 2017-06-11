@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 //import future componnents here
 import MarkdownInput from './components/MarkdownInput';
+import MarkdownPreview from './components/MarkdownPreview';
 
 
 
@@ -24,8 +25,7 @@ class App extends Component {
             <MarkdownInput onChange={this.handleChange} value={this.state.text} />
         </div>
         <div className="column" id="md-preview">
-              {/*<markdownPreview markup={this.state.text} /> */}
-              hello world
+            <MarkdownPreview markup={this.state.text} /> 
         </div>
       </div>
     )
