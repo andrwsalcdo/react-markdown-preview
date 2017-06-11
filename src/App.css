@@ -1,12 +1,12 @@
 body {
     background: lightyellow; 
     color: black; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    margin-top: 50px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
 }
 
 .container {
     margin: 0 auto; 
+    margin-top: 50px; 
     max-width: 90%; 
 }
 
@@ -18,4 +18,11 @@ body {
     padding: 0; 
     vertical-align: top; 
     width: 45.4%; 
+}
+
+#txt_input {
+    display: block; 
+    height: 500px; 
+    margin: 0 auto; 
+    width: 100%; 
 }
