@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-//import future componnents here
 import MarkdownInput from './components/MarkdownInput';
 import MarkdownPreview from './components/MarkdownPreview';
 
