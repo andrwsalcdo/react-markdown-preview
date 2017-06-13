@@ -4,4 +4,12 @@ A simple web app allowing a user to type Github-flavored Markdown into a text ar
 
 The [marked library](https://github.com/chjj/marked) is used to interpret Markdown. 
 
-more to follow...
+![demo](http://i.imgur.com/EMFCowe.png)
+
+Download the zip file or clone the repo 
+- NPM install 
+- NPM start 
+
+References 
+- [DOM Elements](https://facebook.github.io/react/docs/dom-elements.html)
+- [Controlled Components](https://facebook.github.io/react/docs/forms.html)
